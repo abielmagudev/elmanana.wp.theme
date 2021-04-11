@@ -1,0 +1,157 @@
+<?php 
+
+/**
+ 
+* REFERENCE
+
+Menu
+https://codex.wordpress.org/Navigation_Menus
+https://developer.wordpress.org/reference/functions/wp_nav_menu/
+https://developer.wordpress.org/reference/functions/wp_get_nav_menu_items/
+https://codex.wordpress.org/Class_Reference/Walker
+https://developer.wordpress.org/reference/classes/walker_nav_menu/
+
+https://www.wpbeginner.com/wp-themes/how-to-add-custom-navigation-menus-in-wordpress-3-0-themes/
+https://www.wpbeginner.com/plugins/how-to-add-image-icons-with-navigation-menus-in-wordpress/
+https://www.wpbeginner.com/plugins/how-to-add-conditional-logic-to-menus-in-wordpress/
+https://www.wpbeginner.com/wp-themes/how-to-add-menu-descriptions-in-your-wordpress-themes/
+
+https://digwp.com/2011/11/html-formatting-custom-menus/
+https://code.tutsplus.com/tutorials/function-examination-wp_nav_menu--wp-25525
+
+
+Walker
+https://code.i-harness.com/es/q/b61ebf
+
+
+Category
+https://www.techrounder.com/webtips/get-parent-category-id-of-current-category/
+https://wpseek.com/blog/2009/get-id-of-parent-category/49/
+https://developer.wordpress.org/reference/functions/get_categories/
+https://developer.wordpress.org/reference/functions/get_category_parents/
+https://codex.wordpress.org/Function_Reference/get_cat_ID
+https://wordpress.stackexchange.com/questions/18652/get-category-id-inside-category-template
+
+
+https://halgatewood.com/wordpress-custom-single-templates-by-category
+$sub->permalink = get_category_link( $sub->term_id );
+get_category_parents($category_id, link?, 'separator', nicename?, [visited]?);
+$subcategories = get_categories([
+    'orderby'    => 'term_id',
+    'order'      => 'ASC',
+    'hide_empty' => false,
+    'parent'     => $category_id,
+    'exclude'    => '1,12,13,14,15'
+]);
+
+
+Image
+https://stackoverflow.com/questions/20473004/how-to-add-automatic-class-in-image-for-wordpress-post
+https://wp-time.com/add-custom-class-to-image-in-wordpress/
+https://wordpress.stackexchange.com/questions/125554/get-image-description
+https://wordpress.stackexchange.com/questions/193196/how-to-get-image-title-alt-attribute
+
+
+Attachment
+$attachment_meta = wp_get_attachment(your_attachment_id);
+
+
+Date
+https://developer.wordpress.org/reference/functions/date_i18n/
+https://developer.wordpress.org/reference/functions/current_time/
+https://diego.com.es/fecha-y-hora-en-php
+https://desarrollo-geek.net/tutoriales/php/obtener-fecha-local-php/
+https://www.lawebdelprogramador.com/codigo/PHP/2114-Obtener-la-fecha-de-cualquier-zona-horaria-del-mundo.html
+
+
+Meta and Query
+get_the_author_meta('display_name', $post->post_author)
+get_query_var('cat');
+
+
+Global
+global $wp; home_url($wp->request);
+
+
+Menu
+wp_nav_menu(['theme-location' => 'header-menu']);
+
+
+Post
+wp_get_post_parent_id($post_id);
+
+
+Get template by
+add_filter('single_template', 'check_for_category_single_template');
+function check_for_category_single_template( $t )
+{
+  foreach( (array) get_the_category() as $cat ) 
+  { 
+    if ( file_exists(TEMPLATEPATH . "/single-category-{$cat->slug}.php") )
+    {
+        return TEMPLATEPATH . "/single-category-{$cat->slug}.php"; 
+    }
+
+    if($cat->parent)
+    {
+        $cat = get_the_category_by_ID( $cat->parent );
+        if ( file_exists(TEMPLATEPATH . "/single-category-{$cat->slug}.php") ) 
+        {
+            return TEMPLATEPATH . "/single-category-{$cat->slug}.php";
+        }
+    }
+  } 
+  return $t;
+}
+
+
+Paginate
+https://wpsites.net/wordpress-tips/add-pagination-to-custom-post-type-archive-pages/
+https://gist.github.com/ediamin/52c942c62b00c5e3ebaa
+http://dancameron.org/code/wordpress-paginate_links-customization-bootstrap-compatibility/
+https://wordpress.stackexchange.com/questions/126080/changing-pagination-list-class/193492
+
+
+
+Load scripts responsive by js
+https://www.edenspiekermann.com/magazine/responsive-javascript-helpers/
+https://github.com/ded/script.js
+https://github.com/edenspiekermann/minwidth-relocate
+https://github.com/brendanlong/viewport-min-width-polyfill
+https://stackoverflow.com/questions/950087/how-do-i-include-a-javascript-file-in-another-javascript-file
+https://giogadesign.com/how-to-add-defer-async-attributes-to-wordpress-scripts/
+https://matthewhorne.me/defer-async-wordpress-scripts/
+
+
+
+Helps
+$filename = basename(__FILE__, '.php');
+https://mekshq.com/passing-variables-via-get_template_part-wordpress/
+
+
+Optimize
+https://matthewhorne.me/defer-async-wordpress-scripts/
+https://giogadesign.com/how-to-add-defer-async-attributes-to-wordpress-scripts/
+https://ayudawp.com/optimizar-wordpress-solucionando-error-serve-scaled-images/
+
+
+JS
+https://somostechies.com/async-vs-defer/#.XEgCws9KgWo
+
+
+Paginas de Speeds
+https://developers.google.com/speed/pagespeed/insights/?hl=es
+https://tools.pingdom.com
+https://gtmetrix.com/
+
+
+Google AMP
+https://developers.google.com/amp/
+
+
+Facebook Instant Articles
+
+
+// https://gist.github.com/16am/6564251
+// https://www.arturogarcia.com/imagenes-wordpress/
+*/

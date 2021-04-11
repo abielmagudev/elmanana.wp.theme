@@ -1,0 +1,663 @@
+.bg-home {
+  background-color: white !important;
+}
+
+.text-home {
+  color: white !important;
+}
+
+.link-home {
+  color: white !important;
+}
+.link-home:hover {
+  color: gray !important;
+}
+
+.border-home {
+  border-color: white !important;
+}
+
+.nav-categories > .nav-link-home {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-home:hover, .nav-categories > .nav-link-home.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, white 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, white 15%);
+  background: -moz-linear-gradient(bottom, black 85%, white 15%);
+  background: -o-linear-gradient(bottom, black 85%, white 15%);
+  background: linear-gradient(to bottom, black 85%, white 15%);
+}
+
+.bg-nuevo-laredo {
+  background-color: #D01D24 !important;
+}
+
+.text-nuevo-laredo {
+  color: #D01D24 !important;
+}
+
+.link-nuevo-laredo {
+  color: #D01D24 !important;
+}
+.link-nuevo-laredo:hover {
+  color: black !important;
+}
+
+.border-nuevo-laredo {
+  border-color: #D01D24 !important;
+}
+
+.nav-categories > .nav-link-nuevo-laredo {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-nuevo-laredo:hover, .nav-categories > .nav-link-nuevo-laredo.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, #D01D24 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, #D01D24 15%);
+  background: -moz-linear-gradient(bottom, black 85%, #D01D24 15%);
+  background: -o-linear-gradient(bottom, black 85%, #D01D24 15%);
+  background: linear-gradient(to bottom, black 85%, #D01D24 15%);
+}
+
+.bg-laredo-texas {
+  background-color: #3A5EF1 !important;
+}
+
+.text-laredo-texas {
+  color: #3A5EF1 !important;
+}
+
+.link-laredo-texas {
+  color: #3A5EF1 !important;
+}
+.link-laredo-texas:hover {
+  color: #030a29 !important;
+}
+
+.border-laredo-texas {
+  border-color: #3A5EF1 !important;
+}
+
+.nav-categories > .nav-link-laredo-texas {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-laredo-texas:hover, .nav-categories > .nav-link-laredo-texas.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, #3A5EF1 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, #3A5EF1 15%);
+  background: -moz-linear-gradient(bottom, black 85%, #3A5EF1 15%);
+  background: -o-linear-gradient(bottom, black 85%, #3A5EF1 15%);
+  background: linear-gradient(to bottom, black 85%, #3A5EF1 15%);
+}
+
+.bg-estado {
+  background-color: #7B3714 !important;
+}
+
+.text-estado {
+  color: #7B3714 !important;
+}
+
+.link-estado {
+  color: #7B3714 !important;
+}
+.link-estado:hover {
+  color: black !important;
+}
+
+.border-estado {
+  border-color: #7B3714 !important;
+}
+
+.nav-categories > .nav-link-estado {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-estado:hover, .nav-categories > .nav-link-estado.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, #7B3714 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, #7B3714 15%);
+  background: -moz-linear-gradient(bottom, black 85%, #7B3714 15%);
+  background: -o-linear-gradient(bottom, black 85%, #7B3714 15%);
+  background: linear-gradient(to bottom, black 85%, #7B3714 15%);
+}
+
+.bg-nacional {
+  background-color: #DD9924 !important;
+}
+
+.text-nacional {
+  color: #DD9924 !important;
+}
+
+.link-nacional {
+  color: #DD9924 !important;
+}
+.link-nacional:hover {
+  color: #020100 !important;
+}
+
+.border-nacional {
+  border-color: #DD9924 !important;
+}
+
+.nav-categories > .nav-link-nacional {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-nacional:hover, .nav-categories > .nav-link-nacional.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, #DD9924 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, #DD9924 15%);
+  background: -moz-linear-gradient(bottom, black 85%, #DD9924 15%);
+  background: -o-linear-gradient(bottom, black 85%, #DD9924 15%);
+  background: linear-gradient(to bottom, black 85%, #DD9924 15%);
+}
+
+.bg-global {
+  background-color: #1A278F !important;
+}
+
+.text-global {
+  color: #1A278F !important;
+}
+
+.link-global {
+  color: #1A278F !important;
+}
+.link-global:hover {
+  color: black !important;
+}
+
+.border-global {
+  border-color: #1A278F !important;
+}
+
+.nav-categories > .nav-link-global {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-global:hover, .nav-categories > .nav-link-global.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, #1A278F 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, #1A278F 15%);
+  background: -moz-linear-gradient(bottom, black 85%, #1A278F 15%);
+  background: -o-linear-gradient(bottom, black 85%, #1A278F 15%);
+  background: linear-gradient(to bottom, black 85%, #1A278F 15%);
+}
+
+.bg-cultura {
+  background-color: #F77021 !important;
+}
+
+.text-cultura {
+  color: #F77021 !important;
+}
+
+.link-cultura {
+  color: #F77021 !important;
+}
+.link-cultura:hover {
+  color: #180901 !important;
+}
+
+.border-cultura {
+  border-color: #F77021 !important;
+}
+
+.nav-categories > .nav-link-cultura {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-cultura:hover, .nav-categories > .nav-link-cultura.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, #F77021 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, #F77021 15%);
+  background: -moz-linear-gradient(bottom, black 85%, #F77021 15%);
+  background: -o-linear-gradient(bottom, black 85%, #F77021 15%);
+  background: linear-gradient(to bottom, black 85%, #F77021 15%);
+}
+
+.bg-tecnologia {
+  background-color: #A522E4 !important;
+}
+
+.text-tecnologia {
+  color: #A522E4 !important;
+}
+
+.link-tecnologia {
+  color: #A522E4 !important;
+}
+.link-tecnologia:hover {
+  color: #040106 !important;
+}
+
+.border-tecnologia {
+  border-color: #A522E4 !important;
+}
+
+.nav-categories > .nav-link-tecnologia {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-tecnologia:hover, .nav-categories > .nav-link-tecnologia.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, #A522E4 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, #A522E4 15%);
+  background: -moz-linear-gradient(bottom, black 85%, #A522E4 15%);
+  background: -o-linear-gradient(bottom, black 85%, #A522E4 15%);
+  background: linear-gradient(to bottom, black 85%, #A522E4 15%);
+}
+
+.bg-deportes {
+  background-color: #1C861F !important;
+}
+
+.text-deportes {
+  color: #1C861F !important;
+}
+
+.link-deportes {
+  color: #1C861F !important;
+}
+.link-deportes:hover {
+  color: black !important;
+}
+
+.border-deportes {
+  border-color: #1C861F !important;
+}
+
+.nav-categories > .nav-link-deportes {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-deportes:hover, .nav-categories > .nav-link-deportes.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, #1C861F 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, #1C861F 15%);
+  background: -moz-linear-gradient(bottom, black 85%, #1C861F 15%);
+  background: -o-linear-gradient(bottom, black 85%, #1C861F 15%);
+  background: linear-gradient(to bottom, black 85%, #1C861F 15%);
+}
+
+.bg-escena {
+  background-color: #E11DBC !important;
+}
+
+.text-escena {
+  color: #E11DBC !important;
+}
+
+.link-escena {
+  color: #E11DBC !important;
+}
+.link-escena:hover {
+  color: black !important;
+}
+
+.border-escena {
+  border-color: #E11DBC !important;
+}
+
+.nav-categories > .nav-link-escena {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-escena:hover, .nav-categories > .nav-link-escena.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, #E11DBC 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, #E11DBC 15%);
+  background: -moz-linear-gradient(bottom, black 85%, #E11DBC 15%);
+  background: -o-linear-gradient(bottom, black 85%, #E11DBC 15%);
+  background: linear-gradient(to bottom, black 85%, #E11DBC 15%);
+}
+
+.bg-opinion {
+  background-color: #108fac !important;
+}
+
+.text-opinion {
+  color: #108fac !important;
+}
+
+.link-opinion {
+  color: #108fac !important;
+}
+.link-opinion:hover {
+  color: black !important;
+}
+
+.border-opinion {
+  border-color: #108fac !important;
+}
+
+.nav-categories > .nav-link-opinion {
+  color: gainsboro !important;
+  transition: all 0.5s !important;
+}
+.nav-categories > .nav-link-opinion:hover, .nav-categories > .nav-link-opinion.active {
+  color: white !important;
+  background: -webkit-linear-gradient(bottom, black 85%, #108fac 15%);
+  background: -webkit-linear-gradient(bottom, black 85%, #108fac 15%);
+  background: -moz-linear-gradient(bottom, black 85%, #108fac 15%);
+  background: -o-linear-gradient(bottom, black 85%, #108fac 15%);
+  background: linear-gradient(to bottom, black 85%, #108fac 15%);
+}
+
+.bg-cover-75, .bg-cover-image {
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.bg-cover-image {
+  background-size: cover;
+}
+
+.bg-cover-75 {
+  background-size: 100% 75%;
+}
+
+.bg-blur {
+  -webkit-filter: blur(8px);
+  -moz-filter: blur(8px);
+  -o-filter: blur(8px);
+  -ms-filter: blur(8px);
+  filter: blur(8px);
+}
+
+.bg-whitesmoke {
+  background-color: whitesmoke !important;
+}
+
+.bg-gray {
+  background-color: gray !important;
+}
+
+.bg-black {
+  background-color: black !important;
+}
+
+/* Socials */
+.bg-facebook {
+  background-color: #4469B0;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #4469B0;
+}
+.btn-facebook:hover {
+  background-color: #283d66;
+}
+
+.badge-facebook {
+  background-color: #4469B0 !important;
+  color: white !important;
+}
+.badge-facebook:hover {
+  text-decoration: none;
+}
+
+.bg-twitter {
+  background-color: #1dcaff;
+}
+
+.btn-twitter {
+  color: white;
+  background-color: #1dcaff;
+}
+.btn-twitter:hover {
+  background-color: #008bb6;
+}
+
+.badge-twitter {
+  background-color: #1dcaff !important;
+  color: white !important;
+}
+.badge-twitter:hover {
+  text-decoration: none;
+}
+
+.bg-instagram {
+  background-color: hotpink;
+}
+
+.btn-instagram {
+  color: white;
+  background-color: hotpink;
+}
+.btn-instagram:hover {
+  background-color: #ff0381;
+}
+
+.badge-instagram {
+  background-color: hotpink !important;
+  color: white !important;
+}
+.badge-instagram:hover {
+  text-decoration: none;
+}
+
+.bg-youtube {
+  background-color: #ff0000;
+}
+
+.btn-youtube {
+  color: white;
+  background-color: #ff0000;
+}
+.btn-youtube:hover {
+  background-color: #990000;
+}
+
+.badge-youtube {
+  background-color: #ff0000 !important;
+  color: white !important;
+}
+.badge-youtube:hover {
+  text-decoration: none;
+}
+
+#navbar-services {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 999;
+}
+
+.word-la {
+  font-size: 2.5rem;
+  margin-left: 90px;
+  margin-bottom: -57px;
+}
+
+.word-foto {
+  color: crimson;
+  font-size: 8rem;
+  font-weight: bold;
+  letter-spacing: -8px !important;
+  margin-bottom: -40px;
+}
+
+.words-deldia {
+  font-size: 4rem;
+}
+
+.color-turquesa {
+  color: #108fac !important;
+}
+
+.bg-gradient-bluelight {
+  background: linear-gradient(0deg, white 30%, #E8FAFD 100%);
+}
+
+.bg-trapeze-bluelight {
+  background: linear-gradient(64deg, #E8FAFD 85%, rgba(0, 0, 0, 0) 15%);
+  background-color: #E8FAFD;
+}
+
+.bg-bluelight {
+  background-color: #E8FAFD;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+.btn-orange {
+  color: white;
+  background-color: #D75032;
+}
+.btn-orange:hover {
+  color: white;
+  background-color: #b33d23;
+}
+
+*,
+.font-root {
+  font-family: "Helvetica", Verdana, sans-serif !important;
+}
+
+.font-arial {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.font-trebuchet {
+  font-family: "Trebuchet MS", Helvetica, sans-serif !important;
+}
+
+.font-tahoma {
+  font-family: Tahoma, Geneva, sans-serif !important;
+}
+
+.font-times {
+  font-family: "Times New Roman", Times, serif !important;
+}
+
+.font-georgia {
+  font-family: Georgia, serif !important;
+}
+
+.font-palatino {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+}
+
+.font-impact {
+  font-family: Impact, Charcoal, sans-serif !important;
+}
+
+.font-comic {
+  font-family: "Comic Sans MS", cursive, sans-serif !important;
+}
+
+.font-courier {
+  font-family: "Courier New" !important;
+}
+
+.h1-to-h4-sm {
+  font-size: 1.5rem !important;
+}
+
+.list-style-none {
+  list-style: none;
+}
+
+.text-outline-white {
+  text-shadow: 1px 1px 0 white;
+}
+
+.unfocus:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.box-hover-bg,
+.box-hover-shadow,
+.text-hover-shadow {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.box-hover-bg:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.box-hover-shadow:hover {
+  box-shadow: 1rem;
+}
+
+.text-hover-shadow:hover {
+  text-shadow: 1rem;
+}
+
+.aspect-ratio-wrapper {
+  display: block;
+  width: 100%;
+  position: relative;
+  height: 0;
+  padding: 56.25% 0 0 0;
+  overflow: hidden;
+}
+
+.aspect-ratio-photo {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.navbar-scroll {
+  overflow: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+}
+
+/*
+.scroll-x {
+    box-sizing: content-box;
+    overflow: hidden;
+    /* -moz-scrollbars-none * /
+    overflow-x: scroll; 
+    white-space: nowrap;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* none | -ms-autohiding-scrollbar * /
+    -webkit-overflow-scrolling: touch;
+}
+::-webkit-scrollbar {
+    display: none;
+    background: transparent;
+    /* optional: just make scrollbar invisible * /
+    width: 0px;
+    /* remove scrollbar space * /
+}
+/* optional: show position indicator in green * /
+::-webkit-scrollbar-thumb {
+/* background: green; * /
+}
+*/
+@media only screen and (min-width: 768px) {
+  #navbar-services {
+    position: static;
+  }
+
+  .h1-to-h4-sm {
+    font-size: 2.5rem !important;
+  }
+}
+
+/*# sourceMappingURL=elm.plus.css.map */

@@ -1,0 +1,45 @@
+.list-style-none {
+    list-style: none;
+}
+.text-outline-white {
+    text-shadow:1px 1px 0 white;
+}
+.unfocus:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+.box-hover-bg,
+.box-hover-shadow,
+.text-hover-shadow {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.box-hover-bg:hover {
+    background-color: rgba(0,0,0,0.03);
+}
+.box-hover-shadow:hover {
+    box-shadow: 1rem;
+}
+.text-hover-shadow:hover {
+    text-shadow: 1rem;
+}
+.aspect-ratio-wrapper {
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding: 56.25% 0 0 0;
+    overflow: hidden;
+}
+.aspect-ratio-photo {
+    // object-fit: cover;
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}

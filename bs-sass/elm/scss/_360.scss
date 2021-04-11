@@ -1,0 +1,9 @@
+$orange: #D75032;
+.btn-orange {
+    color: white;
+    background-color: $orange;
+    &:hover {
+        color: white;
+        background-color: darken($orange, 10);
+    }
+}

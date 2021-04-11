@@ -1,0 +1,14 @@
+.preview-cover {
+    border: 0.25rem solid white;
+    transition: all 0.25s;
+}
+input[type='radio'].radio-cover:checked ~ .preview-cover {
+    /* border-color: MEDIUMVIOLETRED; */
+    border-color: #A4276A;
+}
+input[type='radio'].overlay-checked:checked {
+    background-color: rgba(red, red, red, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}

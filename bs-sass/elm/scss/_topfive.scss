@@ -1,0 +1,14 @@
+.nav-link-top {
+    background-color: #272727 !important;
+    color: #444 !important;
+    transition: all 0.25s !important;
+}
+.nav-link-top.active {
+    color: #FCBF2F !important;
+}
+.label-link-top {
+    display: none;
+}
+.label-link-top .nav-link-top.active:active {
+    display: inline-block !important;
+}

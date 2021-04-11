@@ -1,0 +1,18 @@
+/*
+Theme Name: El Mañana
+Theme URI: https://www.elmanana.com
+Author: Orangesites
+Author URI: https://orangesites.mx/
+Description: Tema para la empresa de comunicación El Mañana.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: News, noticias
+Text Domain: elmanana
+*/
+
+
+.goads {
+	margin: 0 auto 0 auto;
+	width: 300px;
+}

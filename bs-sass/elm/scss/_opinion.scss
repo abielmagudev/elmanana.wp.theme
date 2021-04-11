@@ -1,0 +1,22 @@
+$turquesa: #108fac;
+$bluelight: #E8FAFD;
+.color-turquesa {
+    color: $turquesa !important;
+}
+.bg-gradient-bluelight {
+    background: linear-gradient(0deg, white 30%, $bluelight 100%); 
+}
+.bg-trapeze-bluelight {
+    background: linear-gradient(64deg, $bluelight 85%, rgba(0,0,0,0) 15%);
+    background-color: $bluelight;
+}
+.bg-bluelight {
+    background-color: $bluelight;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+// $bluelight: lighten($turquesa, 50%);
+// rgba(235,244,249,1)

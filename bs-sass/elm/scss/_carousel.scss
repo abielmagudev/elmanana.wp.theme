@@ -1,0 +1,70 @@
+.carousel-elm {
+    color: red;
+}
+ /*
+.carousel-opinion, 
+.carousel-360 {
+    border: none !important;
+    outline: none !important;
+    overflow-x: hidden !important;
+}
+.carousel-opinion-item,
+.carousel-360-item {
+    width: 256px;
+    height: 384px;
+}
+*/
+
+/* no circle * /
+.flickity-button {
+    background: transparent;
+  }
+  /* big previous & next buttons * /
+  .flickity-prev-next-button {
+    width: 100px;
+    height: 100px;
+  }
+  /* icon color * /
+  .flickity-button-icon {
+    fill: black;
+  }
+  /* hide disabled button * /
+  .flickity-button:disabled {
+    display: none;
+  }
+/* already included in flickity.css * /
+.flickity-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px #19F;
+}
+
+
+/*
+.carousel-flickity {
+    border: none !important;
+    outline: none !important;
+    overflow-x: hidden !important;
+}
+
+.carousel-flickity-item {
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+}
+
+.carousel-flickity-item.is-selected {
+    background: #ED2;
+}
+
+/* cell number * /
+.carousel-flickity-item:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+*/

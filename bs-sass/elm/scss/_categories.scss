@@ -1,0 +1,51 @@
+$classes: (
+    'home'        : white,
+    'nuevo-laredo': #D01D24,
+    'laredo-texas': #3A5EF1,
+    'estado'      : #7B3714,
+    'nacional'    : #DD9924,
+    'global'      : #1A278F,
+    'cultura'     : #F77021,
+    'tecnologia'  : #A522E4,
+    'deportes'    : #1C861F,
+    'escena'      : #E11DBC,
+    'opinion'     : #108fac,
+);
+
+@mixin category($class)
+{
+    $color: map-get($classes, $class);
+
+    .bg-#{$class} {
+        background-color: $color !important;
+    }
+    .text-#{$class} {
+        color: $color !important;
+    }
+    .link-#{$class} {
+        color: $color !important;
+        &:hover {
+            color: darken($color, 50) !important;
+        }
+    }
+    .border-#{$class} {
+        border-color: $color !important;
+    }
+    .nav-categories > .nav-link-#{$class} {
+        color: gainsboro !important;
+        transition: all 0.5s !important;
+        &:hover, &.active{
+            color: white !important;
+            background: -webkit-linear-gradient(bottom, black 85%, $color 15%);      
+            background: -webkit-linear-gradient(bottom, black 85%, $color 15%);
+            background: -moz-linear-gradient(bottom, black 85%, $color 15%);
+            background: -o-linear-gradient(bottom, black 85%, $color 15%);
+            background: linear-gradient(to bottom, black 85%, $color 15%);
+        }
+    }
+}
+
+@each $item in 'home','nuevo-laredo', 'laredo-texas', 'estado', 'nacional', 'global', 'cultura', 'tecnologia', 'deportes', 'escena', 'opinion'
+{
+    @include category($item);
+}

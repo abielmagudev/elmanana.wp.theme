@@ -1,0 +1,30 @@
+%bg-image
+{
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.bg-cover-image {
+    @extend %bg-image;
+    background-size: cover;
+}
+.bg-cover-75 {
+    @extend %bg-image;
+    background-size: 100% 75%;
+}
+.bg-blur {
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+.bg-whitesmoke {
+    background-color: whitesmoke !important;
+}
+.bg-gray {
+    background-color: gray !important;
+}
+.bg-black {
+    background-color: black !important;
+}

@@ -1,0 +1,36 @@
+$social_colors: (
+    'facebook':  #4469B0,
+    'twitter':   #1dcaff,
+    'instagram': hotpink,
+    'youtube': #ff0000,
+);
+
+@function get_social_color($slug)
+{
+    @if( map-has-key($social_colors, $slug) )
+    {
+        @return map-get($social_colors, $slug);
+    }
+}
+
+/* Socials */
+@each $social in 'facebook', 'twitter', 'instagram', 'youtube'
+{
+    .bg-#{$social} {
+        background-color: get_social_color($social);
+    }  
+    .btn-#{$social} {
+        color: white;
+        background-color: get_social_color($social);
+        &:hover {
+            background-color: darken( get_social_color($social), 20);
+        }
+    }
+    .badge-#{$social} {
+        background-color: get_social_color($social) !important;
+        color: white !important;        
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,119 @@
+/* Utilities */
+.d-block {
+    display: block;
+}
+.d-none {
+    display: none;
+}
+.rounded 
+{
+    border-radius: 50% !important;
+}
+.font-size-sm {
+    font-size: 0.75rem !important;
+}
+.font-size-md {
+    font-size: 1rem !important;
+}
+.font-size-lead {
+    font-size: 1.25rem !important;
+}
+.font-size-lg {
+    font-size: 1.5rem !important;
+}
+.float-clear {
+    clear: both;
+}
+.clearfix {
+    overflow: auto;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.text-muted {
+    color: gray;
+}
+.text-center {
+    text-align: center;
+}
+
+
+/* Elements */
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.table  
+{
+    font-size: 0.9rem;
+    text-align: left;
+    width: 100%;
+    margin: 1rem 0;
+}
+.table, .table th, table.td {
+    border: none;
+    border-collapse: collapse;
+}
+.table thead th, .table tbody td {
+    padding: 0.75rem 0.5rem;
+}
+.table > thead th {
+    color: #999;
+    font-size:0.8rem !important;
+}
+.table > tbody td {
+    border-bottom: 1px solid #f1f1f1;
+}
+.table.table-hover > tbody tr:hover td {
+    background-color: #FAFAFA;
+}
+.input, .select, .textarea {
+    display: block;
+    padding: 0.5rem !important;
+    width: 100%;
+}
+input.input[type='file'] {
+    border: 1px solid #ddd;  
+}
+.select {
+    border-radius: 0 !important;
+    height: 2.5rem !important;
+}
+
+
+/* Components */
+.box {
+    background-color: white;
+    /* border-radius: 0.2rem; */
+    box-shadow: 0 0.25rem 0.5rem #e5e5e5;
+}
+.box > .box-body {
+    padding: 1rem;
+}
+.btn-link {
+    background-color: transparent !important;
+    border: none;
+}
+.text-link {
+    text-decoration: none;
+}
+.text-danger {
+    color: crimson;
+}
+.text-link.text-danger:hover {
+    color: firebrick;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-group label {
+    color: #999;
+    display: block;
+    font-size:0.8rem !important;
+    margin-bottom: 0.4rem;
+}

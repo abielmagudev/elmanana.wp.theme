@@ -1,0 +1,30 @@
+.navbar-scroll {
+    overflow: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space:nowrap;
+}
+
+/*
+.scroll-x {
+    box-sizing: content-box;
+    overflow: hidden;
+    /* -moz-scrollbars-none * /
+    overflow-x: scroll; 
+    white-space: nowrap;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    /* none | -ms-autohiding-scrollbar * /
+    -webkit-overflow-scrolling: touch;
+}
+::-webkit-scrollbar {
+    display: none;
+    background: transparent;
+    /* optional: just make scrollbar invisible * /
+    width: 0px;
+    /* remove scrollbar space * /
+}
+/* optional: show position indicator in green * /
+::-webkit-scrollbar-thumb {
+/* background: green; * /
+}
+*/
